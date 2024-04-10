@@ -9,8 +9,11 @@ The automation script is named cookies.py. It includes a class `SauceDemoCookieH
 
 ## Test Script
 The test script test_cookies.py contains test cases written using pytest to validate the functionality of the automation script.
+
 Test Cases:
+
 Positive scenarios: Successful login, fetching cookies before login, fetching cookies after login.
+
 Negative scenarios: Invalid credentials, accessing cookies without login, logout without login.
 
 ## Requirements
