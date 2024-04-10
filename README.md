@@ -12,9 +12,9 @@ The test script test_cookies.py contains test cases written using pytest to vali
 
 Test Cases:
 
-Positive scenarios: Successful login, fetching cookies before login, fetching cookies after login.
+Positive scenarios: Successful login, fetching cookies before login, fetching cookies after login and Length of Cookies Increases After Successful Login.
 
-Negative scenarios: Invalid credentials, accessing cookies without login, logout without login.
+Negative scenarios: Invalid credentials, Logging out without Logging in, Attempting to Fetch Cookies without Logging in, Length of Cookies Remains Unchanged After Successful Login and Checking Length of Cookies After Failed Login Attempt.
 
 ## Requirements
 - Python 3.12.0
