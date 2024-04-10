@@ -20,7 +20,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.service import Service
 from selenium.common.exceptions import NoSuchElementException
 
-class SauceDemoAutomation:
+class SauceDemoCookieHandling:
     def __init__(self):
         # Initialize Firefox WebDriver using GeckoDriverManager to handle driver management
         self.driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
@@ -89,8 +89,8 @@ class SauceDemoAutomation:
 
 url = "https://www.saucedemo.com/"
 
-# Create an instance of SauceDemoAutomation and run the automation
+# Create an instance of SauceDemoCookieHandling and run the automation
 if __name__ == "__main__":
-    automation = SauceDemoAutomation()
+    automation = SauceDemoCookieHandling()
     automation.run()
     automation.shutdown()
